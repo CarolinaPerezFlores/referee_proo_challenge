@@ -1,4 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+
+
+
+.artOne{
+display: inline-flex;    
+position: absolute;
+width: 520px;
+height: 112px;
+left: calc(50% - 520px/2 - 340px);
+top: 48px;
+    
+}
+
+
+
 /******************************************* BODY *************************************************************/
+.titleBody{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: -0.008em;
+    color: #717379a4;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    width: 80%;
+    
+
+}
+
+.compGameOne{
+    /* padding-left: 20px; */
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 23%;
+    height: 63%;
+    
+    background: linear-gradient(180deg, rgb(27, 77, 214) 0%, #041C5D 64.58%, #790461 100%);
+    
+    margin-top: 0px;
+    border-top-left-radius: 20px;
+}
+
+.presentationGame{
+    
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 99%;
+    height: 20%;
+    background-color: white;
+    border: 1px solid rgb(201, 199, 199);
+    border-top-left-radius: 15px;
+
+}
+
+.ulGame{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: absolute;
+    left: 20%;
+    top: 20.5%;
+    width: 60%;
+    height: 79.5%;
+    list-style: none;
+    /* background-color: gray; */
+    background: linear-gradient(180deg, rgba(24, 26, 31, 0.5) -2.94%, rgba(24, 26, 31, 0) 100%);
+    padding-left: 0px;
+    
+}
+
+.liGame{
+
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 1.7%;  
+    color:rgba(255, 255, 255, 0.87);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    justify-content: center;
+    
+}
+
+.liGameM{
+
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 1.7%;  
+    color:rgba(255, 255, 255, 0.87);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    justify-content: center;
+    
+}
+
+.liGameS{
+
+    display: flex;
+    margin: auto;
+    padding-top: 1.7%;  
+    color:rgba(255, 255, 255, 0.87);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    justify-content: center;
+    
+}
+.miniLogo{
+    display: absolute;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 1.7%;
+    color: white; 
+    
+}
+
+
+
 /******************************************* BACKGROUNDCOVER **************************************************/
 /******************************************* GLOBALHEADER *****************************************************/
+
+.headerMain{
+    width: 100vw;
+    height: 100vh;
+    background-size: 100px;
+    background: top linear-gradient(159.44deg, #1F5BFF 0%, #041C5D 48.42%, #790461 100%);
+    margin: -10px 0px 0px -10px;
+    border-bottom-left-radius: 800px 50px;
+    border-bottom-right-radius: 800px 50px;
+}
+
+
+       
+.organizationName{
+
+ 
+    
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -0.6px;
+    
+    /* White / 100% */
+    
+    color: white;
+    margin: 15px 1px 20px 20px
+}
+
+.slogan{
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0px 0px 20px 20px;
+    color: white;
+}
+
+.nameYslogan{
+
+}
+
+.boxCorner{
+
+    width: 112px;
+    height: 112px;
+    border: 0px solid black;
+    border-radius: 24px;
+    
+    /* White / 100% */
+    
+    background: #FFFFFF;
+    /* transform: rotate(-90deg);}s */
+}
+
+.vectorFootball{
+   
+}
+
+
+.imgBall{
+    float: right;
+}
+
+.imgStadium{
+    margin-top: 3.5%;
+    width: 100vw;
+}
+
+
+
+
+.tableUl{
+    padding-left: 20px;
+    position: absolute;
+  left: 8%;
+  top: 53%;
+    width: 85%;
+    height: 90%;
+    background-color: white;
+   
+
+} 
+
+
+
+
+ 
+.ulG {
+    padding-left: 20px;
+    position: absolute;
+  left: 8%;
+  top: 40%;
+    width: 85%;
+    height: 10%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: rgba(22, 29, 44, 0.459);
+    backdrop-filter: blur(5px);
+    list-style: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    
+}
+
+.liG {
+    display: inline-flex;
+    margin: 0px 20px 0px 15px;
+    padding-top: 1.7%;  
+    color:rgba(255, 255, 255, 0.87);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+  
+}
+
+
+
 /******************************************* SIDEBAR **********************************************************/
